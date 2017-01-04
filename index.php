@@ -238,6 +238,35 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="aboutRowGrid">
+                        <div class="wow bounceInUp" data-wow-delay="1.2s">
+                            <div class="team boxed-grey">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <!-- front content -->
+                                            <div class="inner">
+                                                <h5>Bobak Pousti</h5>
+                                                <p class="subtitle">Director</p>
+                                                <div class="avatar"><img src="img/team/6.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <!-- back content -->
+                                            <div class="inner">
+                                                <h5>Bobak Pousti</h5>
+                                                <p class="subtitle">
+                                                    <a href="https://www.facebook.com/poustibobby" target="_blank"><i class="fa fa-facebook" style="font-size:48px;"></i></a></br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
