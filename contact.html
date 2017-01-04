@@ -1,112 +1,118 @@
 <section id="contact" class="home-section text-center">
-		<div class="heading-contact">
-			<div class="container">
+    <div class="heading-contact">
+	<div class="container">
+	    <div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+		    <div class="wow bounceInDown" data-wow-delay="0.4s">
+			<div class="section-heading">
+			    <h2>Get in touch</h2>
+			    <i class="fa fa-2x fa-angle-down"></i>
+
+			</div>
+		    </div>
+		</div>
+	    </div>
+	</div>
+    </div>
+    <div class="container">
+
+	<div class="row">
+	    <div class="col-lg-2 col-lg-offset-5">
+		<hr class="marginbot-50">
+	    </div>
+	</div>
+	<div class="row">
+	    <div class="col-lg-8">
+		<div class="boxed-grey">
+		    <form action="email_script.php" method="POST" id="contact-form">
 			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
-					<div class="section-heading">
-					<h2>Get in touch</h2>
-					<i class="fa fa-2x fa-angle-down"></i>
-
-					</div>
-					</div>
+			    <div class="col-md-6">
+				<div class="form-group">
+				    <label for="name">
+					Name
+				    </label>
+				    <input type="text" name="name" class="form-control" id="name" placeholder="Enter name" required="required" />
 				</div>
+				<div class="form-group">
+				    <label for="email">
+					Email Address
+				    </label>
+				    <div class="input-group">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+					</span>
+					<input type="email" name="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+				</div>
+				<div name="subject" class="form-group">
+				    <label for="subject">
+					Subject
+				    </label>
+				    <select id="subject" name="subject" class="form-control" required="required">
+					<option value="na" selected="">Choose One:</option>
+					<option value="application">Apply as Tutor (San Jose or LA) </option>
+					<option value="suggestions">Suggestions</option>
+					<option value="product">Product Support</option>
+				    </select>
+				</div>
+				<div class="form-group">
+				    <label for="inputfile">Resume (optional)</label> </br>
+				    <input type="file" name="resume" id="inputfile"> </br>
+				</div>
+			    </div>
+			    <div class="col-md-6">
+				<div class="form-group">
+				    <label for="name">
+					Message
+				    </label>
+				    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+					      placeholder="Message"></textarea>
+				</div>
+			    </div>
+			    <div class="col-md-12">
+				<button type="submit" name="submit" class="btn btn-skin pull-right" id="btnContactUs">
+				    Send Message
+				</button>
+			    </div>
 			</div>
-			</div>
+		    </form>
 		</div>
-		<div class="container">
+	    </div>
 
-		<div class="row">
-			<div class="col-lg-2 col-lg-offset-5">
-				<hr class="marginbot-50">
-			</div>
-		</div>
-    <div class="row">
-        <div class="col-lg-8">
-            <div class="boxed-grey">
-                <form action="email_script.php" method="POST" id="contact-form">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Name
-                            </label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Enter name" required="required" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email">
-                                Email Address
-                            </label>
-                            <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
-                        </div>
-                        <div name="subject" class="form-group">
-                            <label for="subject">
-                                Subject
-                            </label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choose One:</option>
-                                <option value="service">Apply as Tutor</option>
-                                <option value="suggestions">Suggestions</option>
-                                <option value="product">Product Support</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="inputfile">Resume (optional)</label> </br>
-				            <input type="file" name="resume" id="inputfile"> </br>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Message
-                            </label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <button type="submit" name="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                            Send Message
-                        </button>
-                    </div>
-                </div>
-                </form>
-            </div>
-        </div>
-		
-		<div class="col-lg-4">
-			<div class="widget-contact">
-				<h5>Current Location</h5>
-				
-				<address>
-				  <strong>Opening Doors Foundation</strong><br>
-				  555 Dana Avenue <br>
-				  San Jose, CA 95126<br>
-				  <abbr title="Phone">P:</abbr> (408) 535-6300 
-				</address>
+	    <div class="col-lg-4">
+		<div class="widget-contact">
+		    <address>
+			<strong>Opening Doors Foundation</strong><br>
+			<abbr title="Phone">L:</abbr> Los Gatos, CA </br>
+			<abbr title="Phone">P:</abbr> (408) 313-4717 </br>
+			<abbr title="Email">E:</abbr> <a href="mailto:#">support@openingdoorsfoundation.org</a> </br>
+		    </address>
 
-				<address>
-				  <strong>Email</strong><br>
-				  <a href="mailto:#">yangyangshi2010@gmail.com</a>
-				</address>	
-<!--
-				<address>
-				  <strong>We're on social networks</strong><br>
+		    <address>
+			<strong>Follow Us!</strong><br>
                        	<ul class="company-social">
-                            <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                            <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>	
-				</address>					
--->
-			
-			</div>	
-		</div>
-    </div>	
+                            <li class="social-facebook"><a href="https://www.facebook.com/openingdoorsfdn" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-twitter"><a href="https://twitter.com/OpeningDoorsFdn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li class="social-google"><a href="https://plus.google.com/u/0/108465932880137850756" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+		    </address>
+
+
+
+		    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="BQ43Y8UGKG6EW">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		    </form>
+
+
+
+		    <p>
+			<font size="2">&reg; We are a 501(c) 3 tax exempt organization registered under the California Secretary of State</font>
+		    </p>
 
 		</div>
-	</section>
+	    </div>
+	</div>
+
+    </div>
+</section>

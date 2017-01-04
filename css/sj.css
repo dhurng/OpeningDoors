@@ -1,0 +1,58 @@
+body {
+    background: url(../img/sj-proj/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#calendar {
+    background-color: #67b0d1;
+}
+
+#calendar .section-heading {
+    color: white;
+}
+
+#sj-main img{
+    /*background-color: red;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+#accordion {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    height: 400px;
+    overflow: hidden;
+    background-color: #67b0d1;
+}
+
+#accordion li {
+    float: left;
+    /*    border-left;*/
+    display: block;
+    height: 100%;
+    width: 50px;
+    padding: 15px 0;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5em;
+    border-left: 1px solid #fff;}
+
+#accordion li img {
+    width: 50%;
+    border: none;
+    border-right: 1px solid #fff;
+    float: left;
+    margin: -15px 15px 0 0;
+}
+
+#accordion li.active {
+    width: 450px;
+}
