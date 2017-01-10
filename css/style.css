@@ -340,7 +340,6 @@ hr {
 .intro {
     width:100%;
     position:relative;
-
     background: url(../img/bg1.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
@@ -354,12 +353,13 @@ hr {
 
 .intro .slogan {
     text-align: center;
+    text-shadow: -1px -1px 5px rgb(255,60,0), 1px 1px 5px rgb(247,255,0)
 }
 
-.intro .slogan p{
+.intro .slogan p {
     font-size: 25px;
     color: white;
-    text-shadow: -1px 0 1px #000;
+    text-shadow: 1px 1px 5px #000000, -1px -1px 5px #000000;
     padding-left: 12%;
     padding-right: 12%;
 
